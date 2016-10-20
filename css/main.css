@@ -30,34 +30,47 @@ body {
 
 .btn-wrap {
   text-align: center;
-  margin: 0 0 1rem;
+  margin: 1rem;
 }
 
 h2 {
   font-size: 1.5rem;
   font-family: Dosis, sans-serif;
-  padding: 1rem;
-  margin: 0 0 1rem;
+  margin: 1rem;
 
 }
 
 p {
   font-size: 1rem;
-  padding: 1rem;
+  margin: 1rem;
+}
+
+.line {
+  margin: 0 auto;
+  border: 1px solid #9a816d;
+  width: 90%;
+
 }
 
 dl {
   font-size: .875rem;
   padding: 1rem;
   line-height: 1.5;
+  margin: 0;
+}
+
+dt {
+  float: left;
+  width: 46%;
 }
 
 span {
   font-size: 1.125rem;
   font-family: Dosis, sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   border-radius: 8px;
   padding: .4em .75em .5em;
+  display: inline-block;
 }
 
 a {
