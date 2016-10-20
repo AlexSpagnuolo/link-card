@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   background-color: #f0eee8;
   font-family: Georgia, serif;
-
 }
 
 *, *::before, *::after {
@@ -13,6 +12,10 @@ body {
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
   border-radius: 3px;
+}
+
+body:hover{
+  background-color: #cabdb2;
 }
 
 h2 {
