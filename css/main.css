@@ -1,7 +1,43 @@
 html {
   box-sizing: border-box;
+  background-color: #f0eee8;
+  font-family: Georgia, serif;
+
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: Dosis, sans-serif;
+}
+
+p {
+  font-size: 1rem
+}
+
+dl {
+  font-size: .875rem;
+}
+
+span {
+  font-size: 1.125rem;
+  font-family: Dosis, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #512200;
+}
+
+.btn {
+  color: white;
+  background-color: #785439;
 }
